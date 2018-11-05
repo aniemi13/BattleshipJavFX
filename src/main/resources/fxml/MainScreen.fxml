@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckMenuItem?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="620.0" prefWidth="1220.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.niemiec.controllers.MainScreenController">
+   <children>
+      <MenuBar>
+        <menus>
+          <Menu mnemonicParsing="false" text="Plik">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#startGame" text="Nowa gra" />
+              <MenuItem mnemonicParsing="false" onAction="#close" text="Zamknij" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Ustawienia">
+               <items>
+                  <CheckMenuItem mnemonicParsing="false" onAction="#setAutomaticallySpacingOfShips" text="Rozstawiaj statki automatycznie" />
+               </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Pomoc">
+            <items>
+              <MenuItem mnemonicParsing="false" text="O programie" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <HBox prefHeight="600.0" prefWidth="1220.0" spacing="10.0">
+         <VBox.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </VBox.margin>
+         <children>
+            <VBox fx:id="myBorder" prefHeight="600.0" prefWidth="600.0">
+               <children>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb00" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb10" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb20" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb30" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb40" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb50" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb60" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb70" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb80" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb90" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb01" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb11" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb21" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb31" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb41" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb51" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb61" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb71" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb81" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb91" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb02" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb12" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb22" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb32" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb42" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb52" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb62" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb72" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb82" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb92" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb03" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb13" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb23" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb33" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb43" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb53" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb63" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb73" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb83" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb93" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb04" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb14" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb24" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb34" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb44" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb54" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb64" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb74" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb84" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb94" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb05" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb15" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb25" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb35" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb45" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb55" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb65" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb75" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb85" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb95" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb06" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb16" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb26" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb36" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb46" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb56" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb66" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb76" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb86" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb96" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb07" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb17" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb27" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb37" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb47" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb57" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb67" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb77" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb87" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb97" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb08" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb18" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb28" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb38" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb48" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb58" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb68" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb78" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb88" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb98" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="mb09" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb19" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb29" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb39" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb49" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb59" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb69" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb79" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb89" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="mb99" mnemonicParsing="false" onAction="#myButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox fx:id="opponentBorder" prefHeight="600.0" prefWidth="600.0">
+               <children>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob00" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob10" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob20" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob30" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob40" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob50" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob60" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob70" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob80" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob90" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob01" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob11" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob21" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob31" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob41" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob51" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob61" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob71" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob81" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob91" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob02" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob12" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob22" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob32" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob42" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob52" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob62" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob72" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob82" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob92" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob03" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob13" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob23" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob33" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob43" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob53" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob63" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob73" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob83" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob93" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob04" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob14" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob24" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob34" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob44" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob54" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob64" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob74" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob84" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob94" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob05" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob15" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob25" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob35" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob45" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob55" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob65" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob75" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob85" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob95" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob06" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob16" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob26" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob36" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob46" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob56" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob66" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob76" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob86" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob96" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob07" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob17" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob27" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob37" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob47" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob57" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob67" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob77" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob87" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob97" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob08" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob18" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob28" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob38" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob48" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob58" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob68" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob78" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob88" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob98" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+                  <HBox prefHeight="60.0" prefWidth="600.0">
+                     <children>
+                        <Button fx:id="ob09" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob19" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob29" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob39" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob49" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob59" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob69" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob79" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob89" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                        <Button fx:id="ob99" mnemonicParsing="false" onAction="#opponentButtonAction" prefHeight="60.0" prefWidth="60.0" />
+                     </children></HBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>
