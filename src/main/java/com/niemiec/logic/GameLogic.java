@@ -1,7 +1,6 @@
 package com.niemiec.logic;
 
 import com.niemiec.objects.Board;
-import com.niemiec.objects.GetBoxAndGameData;
 import com.niemiec.objects.Player;
 import com.niemiec.objects.RealPlayer;
 import com.niemiec.objects.VirtualPlayer;
