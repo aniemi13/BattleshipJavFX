@@ -16,8 +16,7 @@ public class CollectionShips {
 	}
 	
 	public void addShip(Ship ship) {
-		ships[currentlyNumberOfShips] = ship;
-		currentlyNumberOfShips++;
+		ships[currentlyNumberOfShips++] = ship;
 		for (int i = 1; i <= ship.getNumberOfMasts(); i++) {
 			boardWithShipsIndex.setBox(ship.getX(i), ship.getY(i), currentlyNumberOfShips);
 		}
